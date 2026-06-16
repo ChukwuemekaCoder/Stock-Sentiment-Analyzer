@@ -1,0 +1,6 @@
+{
+  "name": "Stock Sentiment Analyzer",
+  "description": "Analyzes the recent 7 days of news, ratings, earnings calls, and macro trends to generate highly accurate, unbiased stock sentiment reports with search grounding resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
