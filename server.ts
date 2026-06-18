@@ -94,7 +94,7 @@ One sentence reminder that this is not financial advice and sentiment can revers
 Do not speculate beyond available evidence. Flag if data is sparse (e.g., small-cap with little coverage). Base your entire analysis on the live search results, not on training data. Ensure all claims contain specific citations of their source (e.g., 'Reuters June 12', 'Morgan Stanley June 10 rating change', etc.).`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.0-flash",
       contents: prompt,
       config: {
         tools: [{ googleSearch: {} }],
